@@ -4,6 +4,7 @@ pipeline {
     stage('Build') {
       steps {
         echo 'I am in Build'
+        sh 'echo "AOA !"'
       }
     }
     stage('Test') {
